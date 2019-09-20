@@ -1126,6 +1126,45 @@ ul.actions {
     ul.actions li:first-child {
       margin-left: 0; }
 
+/* customize */
+
+.no-style {
+  text-decoration: none;
+}
+.live, .repo {
+  padding: 0.5em 2.25em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.live {
+  border: 1px solid #43B3E0;
+  border-radius: 8px;
+  background-color: #43B3E0;
+  color: white;
+  text-shadow: none;
+}
+
+.repo {
+  border: 1px solid #999;
+  border-radius: 8px;
+  /* background-color: #43B3E0; */
+  color: #999;
+  text-shadow: none;
+}
+
+.repo {
+  margin-left: 1em;
+}
+
+.container-live {
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  margin: 0 0 2em 0;
+}
+
 /* Box */
 .box {
   background: #fff;
@@ -1160,6 +1199,9 @@ ul.actions {
 
 .icon.brands:before {
   font-family: 'Font Awesome 5 Brands'; }
+.icon.new {
+  color: red;
+}
 
 .icon.featured {
   color: #EA8A95;
