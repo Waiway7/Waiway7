@@ -593,7 +593,7 @@
 					background-color: #006599;
 				}
 
-				&.fa-tumblr {
+				&.fa-angellist {
 					background-color: #51718A;
 				}
 
@@ -701,10 +701,12 @@
 	}
 
 /* Icons */
-
-	.icon {
-		@include icon;
+	.no-highlight {
 		text-decoration: none;
+	}
+	.icon {
+		// @include icon;
+		// text-decoration: none;
 
 		&:before {
 			font-size: 1.25em;
